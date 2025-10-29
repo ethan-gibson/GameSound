@@ -14,7 +14,6 @@ public class ButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointerDownHa
 	public void OnPointerEnter(PointerEventData eventData)
 	{
 		audioSource.PlayOneShot(hoverSound);
-		Debug.Log("OnPointerEnter");
 	}
 
 	public void OnPointerDown(PointerEventData eventData)
